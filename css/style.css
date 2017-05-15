@@ -1,0 +1,108 @@
+
+/* === Copyright nexGen 2017 === */
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#temporary-back {
+  background: #D1D3D4;
+  height: 100%;
+  width: 100%;
+}
+
+#about-section {
+  padding: 20px;
+  background: white;
+}
+
+.about-block-outer {
+  height: 100%;
+  background: white;
+}
+
+.about-block-inner {
+  height: 100%;
+  background: white;
+
+}
+
+.blockimg {
+  height: 140px;
+  width: 140px;
+  display: table;
+  margin: 0 auto;
+  margin-top: 3px;
+}
+
+.blockheader {
+  font-family: 'Montserrat', serif;
+  font-size: 28px;
+  text-align: center;
+  margin-top: -5px;
+  color: #101010;
+  margin-top: 3px;
+}
+
+.blockdescription {
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #58595B;
+  line-height: 22px;
+}
+
+.b1 {
+  border-top-width: 10px;
+  border-top-style: solid;
+  border-top-color: #5CC3F0;
+}
+
+.b2 {
+  border-top-width: 10px;
+  border-top-style: solid;
+  border-top-color: #F37758;
+}
+
+.b3 {
+  border-top-width: 10px;
+  border-top-style: solid;
+  border-top-color: #FFD189;
+}
+
+.redtxt {
+  color: #F37758;
+}
+
+.redtxt > a {
+  color: #F37758;
+}
+
+.bluetxt {
+  color: #5CC3F0;
+}
+
+.bluetxt > a {
+  color: #5CC3F0;
+}
+
+.yellowtxt {
+  color: #FFD189;
+}
+
+.yellowtxt > a {
+  color: #FFD189;
+}
+
+@media (max-width: 1000px) {
+  .about-block-outer {
+    padding-top: 10px;
+  }
+}
