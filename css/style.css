@@ -50,7 +50,6 @@ body {
   text-align: center;
   margin-top: -5px;
   color: #101010;
-  margin-top: 3px;
 }
 
 .blockdescription {
@@ -63,19 +62,19 @@ body {
 }
 
 .b1 {
-  border-top-width: 10px;
+  border-top-width: 8px;
   border-top-style: solid;
   border-top-color: #5CC3F0;
 }
 
 .b2 {
-  border-top-width: 10px;
+  border-top-width: 8px;
   border-top-style: solid;
   border-top-color: #F37758;
 }
 
 .b3 {
-  border-top-width: 10px;
+  border-top-width: 8px;
   border-top-style: solid;
   border-top-color: #FFD189;
 }
@@ -236,6 +235,7 @@ body {
 
 #team-section {
   background: white;
+  transition: 0.3s;
 }
 
 .heading-title {
@@ -275,6 +275,7 @@ body {
 .team-member {
     overflow: hidden;
     text-align: left;
+
 }
 .team-member, .team-member .team-img {
     position: relative;
@@ -311,7 +312,7 @@ body {
   padding: 0;
 }
 
-.redteam {
+/*.redteam {
   background: #F37758;
 }
 
@@ -321,7 +322,7 @@ body {
 
 .yellowteam {
   background: #FDD290;
-}
+}*/
 
 .team-hover {
     position: absolute;
@@ -342,7 +343,7 @@ body {
 
 .team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
     opacity: 1;
-    height: 160px;
+    height: 200px;
 
 }
 .team-hover .desk {
@@ -367,7 +368,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 .team-member:hover .team-hover .s-link {
-    top: 100px;
+    top: 140px;
 }
 .team-member:hover .team-hover .desk {
     top: 10px;
@@ -415,26 +416,57 @@ body {
 }
 
 .team-member:hover, .redhover {
-  background: rgba(243, 119, 108, 0.7);
+  background: rgba(243, 119, 108, 0.8);
 }
 
 .team-member:hover, .bluehover {
-  background: rgba(92, 200, 243, 0.7);
+  background: rgba(92, 200, 243, 0.8);
 }
 
 .team-member:hover, .yellowhover {
-  background: rgba(253, 210, 144, 0.7);
+  background: rgba(253, 210, 144, 0.8);
 }
 
-.darkyellow {
+.desk .darkyellow {
+  color: #B18752;
+  text-transform: uppercase;
+  font-family: 'Montserrat', serif;
+  font-size: 13px;
+  margin-top: -4px;
+}
+
+.desk .darkred {
+  color: #A74229;
+  text-transform: uppercase;
+  font-family: 'Montserrat', serif;
+  font-size: 13px;
+  margin-top: -4px;
+}
+
+.desk .darkblue {
+  color: #3183A6;
+  text-transform: uppercase;
+  font-family: 'Montserrat', serif;
+  font-size: 13px;
+  margin-top: -4px;
+}
+
+.s-link a i {
+  transition: 0.3s;
+}
+
+.yellowlink a i:hover,
+.yellowlink a i:focus {
   color: #B18752;
 }
 
-.darkred {
+.redlink a i:hover,
+.redlink a i:focus {
   color: #A74229;
 }
 
-.darkblue {
+.bluelink a i:hover,
+.bluelink a i:focus {
   color: #3183A6;
 }
 
