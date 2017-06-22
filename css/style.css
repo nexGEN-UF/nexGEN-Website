@@ -20,6 +20,63 @@ body {
   width: 100%;
 }
 
+.navbar-brand {
+	width: 120px;
+	height: 20px;
+}
+
+.navbar-text{
+	color: white!important;
+	font-family: 'Montserrat', serif;
+}
+
+.opaque-navbar {
+    background-color: transparent!important;
+    height: 50px;
+		border: 0px;
+    box-shadow: none;
+		border-bottom: 0px !important;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: darkgray!important;
+    height: 50px;
+	  border: 0px;
+    box-shadow: none;
+    transition: background-color .5s ease 0s;
+		transition: color: .5s ease 0s;
+}
+
+.jumbotron {
+	background-color: transparent!important;
+	background-size: cover;
+	width: 100%;
+	overflow: hidden;
+}
+
+#video-background {
+ 	width:100%;
+	height: 100vh;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+ 	position: absolute;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.jumbovidtext {
+	font-family: 'Montserrat', serif;
+	text-align: center;
+	color: black;
+	background-color: transparent!important;
+	z-index: 1!important;
+	overflow: hidden;
+	position: absolute;
+}
+
 #about-section {
   padding: 20px;
   background: white;
