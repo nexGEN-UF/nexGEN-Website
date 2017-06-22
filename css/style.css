@@ -52,7 +52,6 @@ body {
 	background-color: transparent!important;
 	background-size: cover;
 	width: 100%;
-	overflow: hidden;
 }
 
 #video-background {
@@ -62,7 +61,11 @@ body {
  	-moz-background-size: cover;
  	-o-background-size: cover;
  	background-size: cover;
+<<<<<<< Updated upstream
 	overflow: hidden;
+=======
+ 	position: absolute;
+>>>>>>> Stashed changes
 	z-index: -1;
 }
 
@@ -72,7 +75,6 @@ body {
 	color: black;
 	background-color: transparent!important;
 	z-index: 1!important;
-	overflow: hidden;
 	position: absolute;
 }
 
@@ -551,4 +553,10 @@ body {
   .desk p {
     font-size: 13px;
   }
+}
+
+.footer {
+	width: 100%;
+	background-color: darkgray;
+	padding: 50px 0px;
 }
