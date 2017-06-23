@@ -20,6 +20,71 @@ body {
   width: 100%;
 }
 
+.navbar-brand {
+	width: 120px;
+	height: 20px;
+}
+
+.navbar-text{
+	color: white!important;
+	font-family: 'Montserrat', serif;
+}
+
+.opaque-navbar {
+    background-color: transparent!important;
+    height: 50px;
+		border: 0px;
+    box-shadow: none;
+		border-bottom: 0px !important;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: darkgray!important;
+    height: 50px;
+	  border: 0px;
+    box-shadow: none;
+    transition: background-color .5s ease 0s;
+		transition: color: .5s ease 0s;
+}
+
+.jumbotron {
+	background-color: transparent!important;
+	text-align: center;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbovidtext {
+	font-family: 'Montserrat', serif;
+	text-align: center;
+	color: black;
+	background-color: transparent!important;
+	z-index: 1!important;
+	position: absolute;
+	width: 100%;
+}
+
+#video-background {
+ 	width:100%;
+	height: 100vh;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+<<<<<<< Updated upstream
+	overflow: hidden;
+=======
+ 	position: absolute;
+>>>>>>> Stashed changes
+	z-index: -1;
+}
+
 #about-section {
   padding: 20px;
   background: white;
@@ -495,4 +560,10 @@ body {
   .desk p {
     font-size: 13px;
   }
+}
+
+.footer {
+	width: 100%;
+	background-color: darkgray;
+	padding: 50px 0px;
 }
