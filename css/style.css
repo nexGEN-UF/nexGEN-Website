@@ -50,7 +50,23 @@ body {
 
 .jumbotron {
 	background-color: transparent!important;
-	background-size: cover;
+	text-align: center;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbovidtext {
+	font-family: 'Montserrat', serif;
+	text-align: center;
+	color: black;
+	background-color: transparent!important;
+	z-index: 1!important;
+	position: absolute;
 	width: 100%;
 }
 
@@ -67,15 +83,6 @@ body {
  	position: absolute;
 >>>>>>> Stashed changes
 	z-index: -1;
-}
-
-.jumbovidtext {
-	font-family: 'Montserrat', serif;
-	text-align: center;
-	color: black;
-	background-color: transparent!important;
-	z-index: 1!important;
-	position: absolute;
 }
 
 #about-section {
