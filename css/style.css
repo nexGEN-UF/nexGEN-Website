@@ -38,9 +38,11 @@ height: 100%;
 }
 
 .navbar-brand {
-	width: 160px;
-
-
+	width: 160px;  
+	position: absolute;
+  top: 50%;
+	height: 40px;
+  transform: translateY(-50%);
 }
 
 .titletext {
@@ -48,12 +50,12 @@ height: 100%;
   text-align: center;
   height: 100%;
   display: flex;
-      align-items: center;
-      justify-content: center;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 
 
 }
@@ -67,10 +69,10 @@ height: 100%;
 
 .navbar-header {
   position: absolute;
-      top: 50%;
-height: 40px;
-      transform: translateY(-50%);
-background: pink;
+  top: 50%;
+	height: 40px;
+  transform: translateY(-50%);
+	background: pink;
 }
 
 .navbar-text{
@@ -78,6 +80,7 @@ background: pink;
 	font-family: 'Montserrat', serif;
   padding-top: 0;
   font-size: 15px;
+	opacity: 1!important;
 
 }
 .opaque-navbar .container-fluid .collapse ul li {
@@ -97,7 +100,8 @@ background: pink;
 }
 
 .opaque-navbar.opaque {
-    background-color: darkgray!important;
+    background-color: black!important;
+		opacity: 0.8;
     height: auto;
 	  border: 0px;
     padding: 0;
@@ -105,28 +109,6 @@ background: pink;
     transition: background-color .5s ease 0s;
 		transition: color: .5s ease 0s;
     transition: padding 0.5s ease 0s;
-}
-
-.jumbotron {
-	background-color: transparent!important;
-	text-align: center;
-	width: 100%;
-	max-width: 100%;
-	height: auto;
-	display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.jumbovidtext {
-	font-family: 'Montserrat', serif;
-	text-align: center;
-	color: black;
-	background-color: transparent!important;
-	z-index: 1!important;
-	position: absolute;
-	width: 100%;
 }
 
 #video-background {
@@ -628,3 +610,14 @@ background: pink;
     font-size: 13px;
   }
 }
+
+	footer {
+		text-align: center;
+		background-color: black;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
+	}
