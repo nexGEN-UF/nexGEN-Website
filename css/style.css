@@ -67,6 +67,24 @@ height: 100%;
   padding: 20px;
 }
 
+#nav-button {
+	width: 30px;
+  float:right;
+  margin: 10px;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+	color: white;
+	font-size: x-large!important;
+}
+
+@media (min-width: 768px) {
+    #nav-button {
+        display:none;
+    }
+}
+
 .navbar-header {
   position: absolute;
   top: 50%;
@@ -75,12 +93,13 @@ height: 100%;
 	background: pink;
 }
 
-.navbar-text{
-  color: blue;
+.nav-link{
+	color: white;
 	font-family: 'Montserrat', serif;
   padding-top: 0;
   font-size: 15px;
 	opacity: 1!important;
+	background-color: transparent!important;
 
 }
 .opaque-navbar .container-fluid .collapse ul li {
@@ -111,6 +130,7 @@ height: 100%;
     transition: padding 0.5s ease 0s;
 }
 
+
 #video-background {
 <<<<<<< HEAD
  	width:100vw;
@@ -126,10 +146,9 @@ height: 100%;
 >>>>>>> Stashed changes
 	z-index: -1;
 =======
-    object-fit: cover;
-    object-position: bottom;
-    position: absolute;
-    width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+  position: absolute;
 
 >>>>>>> 42570a83cabb09e80878b4b322ac1ae87de3cbff
 }
