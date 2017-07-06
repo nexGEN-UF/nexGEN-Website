@@ -689,9 +689,11 @@ video {
 #copyright 
 {
 	float: left;
+	margin-left: 20px;
 }
 
 #made-with
 {
 	float: right;
+	margin-right: 20px;
 }
