@@ -31,15 +31,13 @@
 
 <body>
 <!-- === Navbar === -->
-	
-<!--	AGENCY NAVBAR-->
 	<header>
             <!-- <nav class="navbar navbar-dark navbar-fixed-top opaque-navbar"> -->
 		<nav class="navbar navbar-toggleable-md navbar-fixed-top opaque-navbar">
   					<button id="nav-button" class="navbar-toggler navbar-toggler-right hidden-md-up pull-right" type="button" data-toggle="collapse" data-target="#nav-header-links-collapse" aria-controls="nav-header-links-collapse" aria-expanded="false" aria-label="Toggle navigation">&#9776;
   					</button>
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#landing-page" style="margin-top:-10px; margin-bottom: -14px;"><img alt="Brand" src="img/nexGenLogo.png" class= "img-responsive">
+                    <a class="navbar-brand" href="#landing-page" style="margin-top:-10px; margin-bottom: -14px;"><img alt="Brand" src="img/Nexgen_Logos-06.png" class= "img-responsive">
                     </a>
                     <div class="collapse navbar-collapse pull-right" id="nav-header-links-collapse">
                         <ul class="nav navbar-nav pull-right">														
@@ -75,10 +73,11 @@
 <!-- === Start Landing Page === -->
 	<section id="landing-page">
     <div class="innerland">
-    <video autoplay loop id="video-background" autoplay="true" loop="loop" preload="metadata" muted="muted">
-        <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761" type="video/mp4">
-
-    </video>
+			<div class="bg-video">
+				<video autoplay loop id="video-background" autoplay="true" loop="loop" preload="metadata" muted="muted">
+        <source src="img/big_buck_bunny.mp4" type="video/mp4">
+    		</video>
+			</div>
     <div class="titletext">
       <h1 class="text">DO WHATCHA LIKE.</h1>
     </div>
@@ -336,8 +335,15 @@
   </section>
 <!-- === End Team Section === -->
 <!-- Footer Section -->
-<footer>
-	<h4>This is a Footer Test</h4>
+<footer id = "footer-section">
+	<div id = "foot">
+		<div id = "logos">
+			<img alt="Brand" src="img/Nexgen_Logos-06.png" class= "footer-image">
+			<img alt="Agency" src="img/Agency_Logo+UF_lightgray_colors.png" class= "footer-image">
+		</div>
+		<p id="copyright">© 2017 nexGEN. All rights reserved. </p>
+		<p id="made-with">Made with nexGEN &hearts;</p>
+	</div>
 </footer>
 <!-- End Footer Section -->
 

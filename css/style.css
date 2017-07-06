@@ -9,6 +9,7 @@ html {
 body {
   height: 100%;
   width: 100%;
+	padding-bottom: 60px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -22,6 +23,7 @@ body {
 
 #landing-page {
   height: 100%;
+	width: 100%;
 }
 
 .innerland{
@@ -32,9 +34,21 @@ body {
   bottom: 0px;
 
 }
+.bg-video {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
 
 video {
-height: 100%;
+	height: 100%;
+	top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 
 .navbar-brand {
@@ -95,13 +109,18 @@ height: 100%;
 
 .nav-link{
 	color: white;
-	font-family: 'Montserrat', serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 0;
   font-size: 15px;
 	opacity: 1!important;
 	background-color: transparent!important;
 
 }
+
+.nav-link:hover, .navlink:active {
+	color: darkred;
+}
+
 .opaque-navbar .container-fluid .collapse ul li {
 
 }
@@ -630,13 +649,49 @@ height: 100%;
   }
 }
 
-	footer {
-		text-align: center;
-		background-color: black;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    height: 100px;
-    width: 100%;
-    overflow:hidden;
+#foot-section {
+	text-align: center;
+	padding: 60px 0px;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  height: 60px;
+  width: 100%;
+	margin-top: -60px;
+  overflow:hidden;
 	}
+#foot {
+	text-align: center;
+	padding-top: 20px;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+  overflow:hidden;
+}
+
+#logos.center {
+	width: 100%;
+  height: 200px;
+	display: inline-flex;
+}
+.footer-image { 
+	width: 150px;
+	height: auto;
+	margin-right: 150px; 
+} 
+
+.footer-image:last-child { 
+	width: 150px;
+	height: auto;
+	margin-right:0px; 
+}
+
+#copyright 
+{
+	float: left;
+}
+
+#made-with
+{
+	float: right;
+}
