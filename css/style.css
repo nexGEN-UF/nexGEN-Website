@@ -114,6 +114,10 @@ video {
   font-size: 15px;
 	opacity: 1!important;
 	background-color: transparent!important;
+	-moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
 
 }
 
@@ -384,6 +388,166 @@ video {
     padding-top: 10px;
   }
 }
+
+/* Contact Section */
+
+#connect-section {
+	background: url(/img/andybw.jpeg) black;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: white;
+}
+
+#connect-button {
+	border-color: white;
+	font-family: 'Montserrat', serif;
+	color: white;
+	-moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+#connect-button:hover {
+	color: darkred;
+	border-color: darkred;
+	text-decoration: none;
+}
+
+.contact-header {
+	font-family: 'Montserrat', serif;
+  font-size: 30px;
+  text-align: center;
+  color: #939598;
+	margin-left: 20px;
+	text-decoration: underline;
+	overflow: hidden;
+}
+
+#contact-section {
+	background-color: black;
+	text-align: center;
+}
+
+.contact-box {
+	text-align: center;
+}
+
+.contact-box h4{
+	padding-bottom: 50px;
+}
+
+.contact-box dl{
+	color: #939598!important;
+}
+
+.contact_info{
+	width: 100%;
+}
+
+#address {
+	text-align: center;
+	float: center;
+	overflow: hidden;
+}
+
+#address a{
+	color: grey;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+#address a:hover{
+	color: darkred;
+	text-decoration: none;
+}
+
+#email {
+	float: left;
+	margin-left: 50px;
+	overflow: hidden;
+}
+
+#email a {
+	color: grey;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+	
+}
+
+#email a:hover{
+	color: darkred;
+	text-decoration: none;
+}
+
+#socials {
+	text-align: center;
+	display: inline;
+	font-size: large;
+	float: right;
+	margin-right: 50px;
+	text-decoration: none!important;
+}
+
+#facebook_connect {
+	padding:10px;
+		margin-right: 15px;
+    font-size: 30px;
+    width: 30px;
+		height: 30px;
+		border-radius: 50%;
+    text-align: center;
+    text-decoration: none!important;
+	-moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+		background-color: dimgray;
+		color: grey;
+		opacity: 0.7;
+}
+
+#facebook_connect:hover {
+	text-decoration: none!important;
+	background: #3B5998;
+  color: white;
+	opacity: 1;
+}
+
+#linkedin_connect {
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+    font-size: 30px;
+    width: 15px;
+		height: 15px;
+    text-align: center;
+    text-decoration: none!important;
+    border-radius: 50%;
+		background-color: dimgray;
+		color: grey;
+		opacity: 0.7;
+		-moz-transition: all .2s ease-in;
+  	-o-transition: all .2s ease-in;
+  	-webkit-transition: all .2s ease-in;
+  	transition: all .2s ease-in;
+}
+
+#linkedin_connect:hover {
+	text-decoration: none;
+	background: #0077B5;
+    color: white;
+	opacity: 1;
+}
+/* End contact section */
 
 #team-section {
   background: white;
@@ -686,14 +850,12 @@ video {
 	margin-right:0px; 
 }
 
-#copyright 
-{
+#copyright {
 	float: left;
 	margin-left: 20px;
 }
 
-#made-with
-{
+#made-with {
 	float: right;
 	margin-right: 20px;
 }
