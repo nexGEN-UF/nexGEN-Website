@@ -493,11 +493,12 @@ video {
 	font-size: large;
 	float: right;
 	margin-right: 50px;
+	margin-left: 30px;
 	text-decoration: none!important;
 }
 
 #facebook_connect {
-	padding:10px;
+		padding:10px;
 		margin-right: 15px;
     font-size: 30px;
     width: 30px;
