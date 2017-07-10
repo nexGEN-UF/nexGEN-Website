@@ -75,7 +75,7 @@ video {
 }
 
 .text {
-  color: white;
+  color: black;
   font-family: 'Montserrat', serif;
   font-size: 70px;
   padding: 20px;
@@ -292,6 +292,193 @@ video {
   height: 50%;
 }
 
+/* case studies */
+
+#case_studies {
+	height: 100%;
+	width: 100%;
+}
+
+#case_studies div{
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+	overflow: auto;
+}
+
+#inner-cases {
+	background-color: dimgray;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+#inner-cases a {
+  width:100%;
+  height:100%;
+}
+
+#box_1 {
+	width: 50%;
+	height: 50%;
+	float: left;
+	color: white;
+	text-align: center;
+	background-image: url(../img/city_overview.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+	-moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.block-head {
+	color: black;
+	text-align: left;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#box_1 .description {
+	visibility: hidden;
+	font-size:  20px;
+	margin-top: 50px;
+}
+
+#box_1:hover .description {
+	visibility: visible;
+}
+
+#box_1:hover .block-head {
+	visibility: hidden;
+}
+
+#box_2 {
+	width: 50%;
+	height: 50%;
+	float: left;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	background-image: url(../img/office.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+	-moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+#box_2 .description {
+	visibility: hidden;
+	font-size:  20px;
+	margin-top: 50px;
+}
+
+#box_2:hover .description {
+	visibility: visible;
+}
+
+#box_2:hover .block-head {
+	visibility: hidden;
+}
+
+
+#box_3 {
+	width: 50%;
+	height: 50%;
+	float: left;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	background-image: url(../img/classroom.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+	-moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+#box_3 .description {
+	visibility: hidden;
+	font-size:  20px;
+	margin-top: 50px;
+}
+
+#box_3:hover .description {
+	visibility: visible;
+}
+
+#box_3:hover .block-head {
+	visibility: hidden;
+}
+
+
+#box_4 {
+	width: 50%;
+	height: 50%;
+	float: left;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	background-image: url(../img/city.jpg);
+	background-repeat: no-repeat;
+  background-size: 100% 100%;
+	-moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+#box_4 .description {
+	visibility: hidden;
+	font-size:  20px;
+	margin-top: 50px;
+}
+
+#box_4:hover .description {
+	visibility: visible;
+}
+
+#box_4:hover .block-head {
+	visibility: hidden;
+}
+
+
+#box_1:hover {
+	background: #5CC3F0;
+	color: white
+	opacity: 0.7;
+	
+}
+
+#box_2:hover {
+	
+	background: #F37758;
+	color: white;
+	opacity: 0.7;
+}
+
+#box_3:hover {
+	background: #FFD189;
+	color: white;
+	opacity: 0.7;
+}
+
+#box_4:hover {
+	background: #5CC3F0;
+	color: white;
+	opacity: 0.7;
+}
+/* end case studies */
+
 #carouselcon {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -392,7 +579,9 @@ video {
 /* Contact Section */
 
 #connect-section {
-	background: url(/img/andybw.jpeg) black;
+	background-image: url(../img/city.jpg);
+	background-repeat: no-repeat!important;
+	background-size: 100% 100%;
 	width: 100%;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -403,6 +592,7 @@ video {
 	border-color: white;
 	font-family: 'Montserrat', serif;
 	color: white;
+	text-decoration: none;
 	-moz-transition: all .2s ease-in;
   -o-transition: all .2s ease-in;
   -webkit-transition: all .2s ease-in;
@@ -447,9 +637,11 @@ video {
 }
 
 #address {
+	position: static;
 	text-align: center;
 	float: center;
 	overflow: hidden;
+	font-size: 15px; 
 }
 
 #address a{
@@ -467,9 +659,11 @@ video {
 }
 
 #email {
+	position: static;
 	float: left;
 	margin-left: 50px;
 	overflow: hidden;
+	font-size: 15px;
 }
 
 #email a {
