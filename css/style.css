@@ -105,6 +105,7 @@ video {
 }
 
 .nav-link{
+	cursor: pointer;
 	color: white;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 0;
@@ -280,6 +281,7 @@ video {
 }
 
 #inner-cases a {
+	cursor: pointer;
   height: 100%;
 	width: 100%;
 }
@@ -582,15 +584,10 @@ video {
 	background-color: whitesmoke;
 	text-decoration: none!important;
 	padding-top: 50px;
-	padding-bottom: 200px;
-	padding-top: 50px;
+	padding-bottom: 80px;
 	left: 0;
   right: 0;
   z-index: 1;
-	background-image: url(../img/develop.png);
-  background-repeat: no-repeat;
-  background-size: 30% 80%;
-	background-position:bottom;
 }
 
 
@@ -599,18 +596,18 @@ video {
 	text-align: center;
 	font-size: 40px;
 	margin-bottom: 20px;
-	padding bottom: 100px;
+	padding-bottom: 20px;
 } 
 
- #contact-head:after {
+ /* #contact-head:after {
     content: "";
     position: absolute;
-    width: 50%;
+    width: 25%;
     height: 1px;
-    bottom: 0;
-    left: 25%;
+    bottom: 0px;
+	 	left: 38%;
     border-bottom: 1px solid #F37758;
- }
+ } */
 
 .inner-contact {
 	height: 100%;
@@ -664,55 +661,86 @@ video {
 }
 
 */ 
+.socials {
+	padding-left: 0px;
+	margin-left: 0px;
+}
 
 .social {
+	text-decoration: none;
 	text-align: center;
-	vertical-align: middle!important;
-	display: inline;
-	font-size: 35px;
+	vertical-align: top;
 	padding-top: 80px;
+	padding-bottom: 80px;
+	background-image: url(../img/develop.png);
+  background-repeat: no-repeat;
+  background-size: 20% 105%;
+	background-position:bottom;
 }
 
 .social a {
+	cursor: pointer;
 	text-decoration: none!important;
-	vertical-align: top!important;
+	display: inline;
+	margin-right: 40px;
+}
+
+.social a i{
+	text-decoration: none;
+	padding-top: 15px;
+	background-color: darkgray;
+	color: lightgray;
+	border-radius: 50%;
+	font-size: 40px;
+	width: 70px;
+	height: 70px;
 	-moz-transition: all .2s ease-in;
 	-o-transition: all .2s ease-in;
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
-	padding: .5em;
-	text-align: center;
-	width: 45px;
-	height: 45px;
-	margin-right: 40px;
-	border-radius: 50%;
-	background-color: darkgray;
-	color: lightgray;
 }
 
 @media (max-width: 768px) {
   .social {
     font-size: 25px;
+		background-size: 40% 105%;
   }
 	
 	.social a {
-		margin-right: 15px;
+		margin-right: 10px;
 	}
+	
+	.social a i {
+		width: 50px;
+		height: 50px;
+		font-size: 30px;
+		padding-top: 10px;
+	}
+	
 	#contact-head {
-		color: black;
 		text-align: center;
 		font-size: 30px;
-		margin-bottom: 50px;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
 	} 
+	
+	.envelope {
+		margin-left: 0px!important;
+	}
+	
+	#contact-section {
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
 }
 
 .envelope {
+	margin-left: 40px;
 	text-decoration: none;
 	color: lightgray;
-	background-color: darkgrey;
 }
 
-.envelope:hover {
+#envelope_icon:hover {
 	background:#5CC3F0 ;
   color: white;
 	opacity: 1;
@@ -721,10 +749,9 @@ video {
 .map {
 	text-decoration: none;
 	color: lightgray;
-	background-color: darkgray;
 }
 
-.map:hover {
+#map_icon:hover {
 	background:#F37758;
   color: white;
 	opacity: 1;
@@ -734,7 +761,7 @@ video {
 	text-decoration: none;
 }
 
-.facebook:hover {
+#facebook_icon:hover {
   background: #3B5998;
 	color: white;
 	opacity: 1;
@@ -745,18 +772,17 @@ video {
 	text-align: center;
 }
 
-.twitter:hover {
+#twitter_icon:hover {
   background: #0084b4;
 	color: white;
 	opacity: 1;
 }
 
 .google {
-	background-color: darkgray;
 	color: lightgrey;
 }
 
-.google:hover {
+#google_icon:hover {
 	background: #d34836;
   color: white;
 	opacity: 1;
