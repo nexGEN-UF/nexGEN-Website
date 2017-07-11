@@ -120,34 +120,34 @@
 <!-- === Case Studies === -->
 	<section class="no-padding" id="case_studies">
 	 <div class="container-fluid" id="inner-cases">
-		 <a class="case-link" href="#">
-			<div class="container-fluid" id="box_1">
-				<!-- <a class="case-link" href="#"><span></span></a> -->
+		 <div class="row">
+			 <a class="case-link" href="#">
+			 <div class="col-xs-12 col-sm-6 box_1">
 				<h1 class="block-head" id="block_header">SSHCO</h1>
 				<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
 			</div>
-		 </a>
-		 <a class="case-link" href="http://theagency.jou.ufl.edu/">
-			<div class="container-fluid" id="box_2">
+			</a>
+			<a class="case-link" href="http://theagency.jou.ufl.edu/">
+			<div class="col-xs-12 col-sm-6 box_2">
 				<!-- <a class="case-link" href="http://theagency.jou.ufl.edu/"><span></span></a>-->
 				<h1 class="block-head" id="block_header">The Agency</h1>
 				<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
 			</div>
 		 </a>
-		 <a class="case-link" href="#">
-			<div class="container-fluid" id="box_3">
+			<a class="case-link" href="#">
+			<div class="col-xs-12 col-sm-6 box_3">
 				<!-- <a class="case-link" href="#"><span></span></a> -->
 				<h1 class="block-head" id="block_header">Learning Without Borders</h1>
 				<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
 			</div>
 		 </a>
-		 <a class="case-link" href="#">
-			<div class="container-fluid" id="box_4">
-				<!-- <a class="case-link" href="#"><span></span></a> -->
+			<a class="case-link" href="#">
+			<div class="col-xs-12 col-sm-6 box_4">
 				<h1 class="block-head" id="block_header">EnsoAg</h1>
 				<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
 			</div>
 		 </a>
+		 </div>
 		</div>
 	</section>
 	
@@ -207,7 +207,7 @@
 <!-- === End Testimonails Section === -->
 
 <!-- === Connect Section === -->
-	<section id="connect-section">
+	<!-- <section id="connect-section">
 		<div class="container" id="connect-section">
 			<div class="contact-box text-center">
 				<h1>Connect with us</h1>
@@ -215,7 +215,7 @@
 				<a href="#" target="_blank" class="btn btn-link btn-lg" style="font-family: 'Montserrat', serif" id="connect-button">GET STARTED</a>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 <!-- End Connect Section === -->
 
@@ -385,37 +385,41 @@
 <!-- === End Team Section === -->
 
 <!-- === Contact Section === -->
+
 <section id="contact-section">
-	<div class="container-fluid">
-		<div class="inner-contact">
+	<!--  -->
+	<div class="container-fluid inner-contact">
+		<div class="background-image" id="contact-bg"></div>
 			<div class="row">
-				<div class="contact-header">
-					<h3>Contact</h3>
-				</div>
-			</div>
-			<div class="contact-box" style="padding-top: 25px">
-				<div class="column">
-					<p><p id="socials">
-								<a href="#" target="_blank" class="facebook">
-									<i class="fa fa-facebook" id="facebook_connect" style="display:inline"></i></a>
-								<a href="#" target="_blank" class="linkedin">
-									<i class="fa fa-linkedin" id="linkedin_connect" style="display:inline"></i>
-								</a></p>
-				</div>
-				<div class="column">
+				<div class="col-sm-12 col-xs-12"><h1 id="contact-head"> Get in touch! </h1></div>
+		</div>
+			<div class="row">
+				<!-- <div class="col-sm-4 col-xs-12 e-mail">
 					<p id="email">
-								<i class="fa fa-fw fa-envelope fa-md colored"></i>E-Mail<br/>
+								<i class="fa fa-fw fa-envelope fa-md colored"></i> E-Mail<br/>
 					<a href="#">nexgenthinking@ufl.edu</a>
 				</p>
 				</div>
-				<div class="column">
-					<p id="address"><b><i class="fa fa-fw fa-map-marker fa-md"></i>Address</b><br/>
-						<a href="#">nexGEN<br/>University of Florida<br/>1000 Weimer Hall<br/>Gainesville, FL 32611<br/>
+				<div class="col-sm-4 col-xs-12 address">
+					<p id="address"><b><i class="fa fa-fw fa-map-marker fa-md"></i>Location</b><br/>
+						<a href="#">The Agency<br/>University of Florida<br/>1000 Weimer Hall<br/>Gainesville, FL 32611<br/>
 						</a>
-			</p>
+					</p>
+				</div> -->
+				<div class="col-sm-12 col-xs-12 social">
+					<p id="socials">
+						<a href="#" class="envelope"><i class="fa fa-fw fa-envelope fa-md colored" id="envelope_icon"></i></a>
+						<a href="#" class="map"><i class="fa fa-fw fa-map-marker fa-md" id="map_icon"></i></a>
+						<a href="#" class="facebook">
+  							<i class="fa fa-facebook fb_logo" id="facebook_icon"></i>
+						</a>
+							<a href="#" class="twitter">
+  								<i class="fa fa-twitter" id="twitter_icon"></i>
+							</a>
+							<a href="#" class="google"><i class="fa fa-google-plus" id="google_icon"></i></a>
+					</p>
 				</div>
 			</div>
-		</div>
 	</div>
 		
 </section>
@@ -424,14 +428,18 @@
 
 <!-- === Footer Section === -->
 <footer id = "footer-section">
-	<div id = "foot">
-		<div id = "logos">
-			<img alt="Brand" src="img/Nexgen_Logos-06.png" class= "footer-image">
-			<img alt="Agency" src="img/Agency_Logo+UF_lightgray_colors.png" class= "footer-image">
+	<div class="container-fluid" id = "foot">
+		<div class="row">
+			<div class="col-sm-6 col-xs-6" id = "logos">
+				<img alt="Brand" src="img/Nexgen_Logos-06.png" class= "footer-image">
+			</div>
+			<div class="col-sm-6 col-xs-6" id="logos">
+				<img alt="Agency" src="img/Agency_Logo+UF_lightgray_colors.png" class= "footer-image">
+			</div>
+			<p id="copyright">© 2017 nexGEN</p>
+			<p id="made-with">Made with nexGEN &hearts;</p>
 		</div>
-		<p id="copyright">© 2017 nexGEN. All rights reserved. </p>
-		<p id="made-with">Made with nexGEN &hearts;</p>
-	</div>
+		</div>
 </footer>
 <!-- End Footer Section -->
 
