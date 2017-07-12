@@ -31,35 +31,53 @@
 
 <body>
 <!-- === Navbar === -->
-	<nav class="navbar navbar-default navbar-fixed-top opaque-navbar">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#"><img alt="Brand" src="img/nexGenLogo.png" class= "img-responsive"></a>
-    </div>
-
-    <!-- navbar links -->
-    <div class="collapse navbar-collapse pull-right" id="nav-header-links-collapse">
-      <ul class="nav navbar-nav navbar-right">
-				<li class="navbar-text"><a href="#about-section">About</a></li>
-				<li class="navbar-text"><a href="#">Case Studies</a></li>
-				<li class="navbar-text"><a href="#carouselcon">Testimonials</a></li>
-				<li class="navbar-text"><a href="#team-section">Team</a></li>
-				<li class="navbar-text"><a href="#">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+	<header>
+            <!-- <nav class="navbar navbar-dark navbar-fixed-top opaque-navbar"> -->
+		<nav class="navbar navbar-toggleable-md navbar-fixed-top opaque-navbar">
+  					<button id="nav-button" class="navbar-toggler navbar-toggler-right hidden-md-up pull-right" type="button" data-toggle="collapse" data-target="#nav-header-links-collapse" aria-controls="nav-header-links-collapse" aria-expanded="false" aria-label="Toggle navigation">&#9776;
+  					</button>
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#landing-page" style="margin-top:-10px; margin-bottom: -14px;"><img alt="Brand" src="img/Nexgen_Logos-06.png" class= "img-responsive">
+                    </a>
+                    <div class="collapse navbar-collapse pull-right" id="nav-header-links-collapse">
+                        <ul class="nav navbar-nav pull-right">														
+                            <li class="nav-item">
+                                <a class="nav-link" href="#landing-page">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-section">ABOUT</a>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link" href="#case_studies">CASE STUDIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#carouselcon">TESTIMONIALS</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="#team-section">TEAM</a>                  
+                            </li>                                                      
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://theagency.jou.ufl.edu/">THE AGENCY</a>
+                            </li>        
+														<li class="nav-item">
+                                <a class="nav-link" href="#contact-section">CONTACT</a>
+                            </li>  
+                        </ul>
+                    </div>
+                </div>
+     	</nav>
+     </header>
 
 <!-- === End Nav Bar === -->
 
 <!-- === Start Landing Page === -->
 	<section id="landing-page">
     <div class="innerland">
-    <video autoplay loop id="video-background" autoplay="true" loop="loop" preload="metadata" muted="muted">
-        <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761" type="video/mp4">
-
-    </video>
+			<div class="bg-video">
+				<video autoplay loop id="video-background" autoplay="true" loop="loop" preload="metadata" muted="muted">
+        <source src="img/beach.mp4" type="video/mp4">
+    		</video>
+			</div>
     <div class="titletext">
       <h1 class="text">DO WHATCHA LIKE.</h1>
     </div>
@@ -98,6 +116,43 @@
     </div>
   </section>
 <!-- === End About Section === -->
+	
+<!-- === Case Studies === -->
+	
+	<section id="case_studies">
+	 <div class="container-fluid" id="inner-cases">
+		 <div class="row case-row">
+			 <a class="case-link" href="#">
+			 <div class="col-xs-12 col-sm-6 box_1">
+				<h1 class="block-head" id="block_header">SSHCO</h1>
+				<p class="description" id="block-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+			</div>
+			</a>
+			<a class="case-link" href="http://theagency.jou.ufl.edu/">
+			<div class="col-xs-12 col-sm-6 box_2">
+				<!-- <a class="case-link" href="http://theagency.jou.ufl.edu/"><span></span></a>-->
+				<h1 class="block-head" id="block_header">The Agency</h1>
+				<p class="description" id="block-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+			</div>
+		 </a>
+			<a class="case-link" href="#">
+			<div class="col-xs-12 col-sm-6 box_3">
+				<!-- <a class="case-link" href="#"><span></span></a> -->
+				<h1 class="block-head" id="block_header">Learning Without Borders</h1>
+				<p class="description" id="block-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+			</div>
+		 </a>
+			<a class="case-link" href="#">
+			<div class="col-xs-12 col-sm-6 box_4">
+				<h1 class="block-head" id="block_header">EnsoAg</h1>
+				<p class="description" id="block-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+			</div>
+		 </a>
+		 </div>
+		</div>
+	</section>
+	
+<!-- === End Case Studies Section === -->
 
 <!-- === Start Testimonails Section === -->
   <section id="carouselcon">
@@ -151,6 +206,19 @@
     </div>
   </section>
 <!-- === End Testimonails Section === -->
+
+<!-- === Connect Section === -->
+	<!-- <section id="connect-section">
+		<div class="container" id="connect-section">
+			<div class="contact-box text-center">
+				<h1>Connect with us</h1>
+				<h4>Reach out to us anytime!</h4>
+				<a href="#" target="_blank" class="btn btn-link btn-lg" style="font-family: 'Montserrat', serif" id="connect-button">GET STARTED</a>
+			</div>
+		</div>
+	</section> -->
+
+<!-- End Connect Section === -->
 
 <!-- === Start Team Section === -->
   <section id="team-section">
@@ -317,14 +385,69 @@
   </section>
 <!-- === End Team Section === -->
 
+<!-- === Contact Section === -->
+
+<section id="contact-section">
+	<!--  -->
+	<div class="container-fluid inner-contact">
+		<div class="background-image" id="contact-bg"></div>
+			<div class="row">
+				<div class="col-sm-12 col-xs-12"><h2 id="contact-head"> Get in touch! </h2></div>
+		</div>
+			<div class="row">
+				<!-- <div class="col-sm-4 col-xs-12 e-mail">
+					<p id="email">
+								<i class="fa fa-fw fa-envelope fa-md colored"></i> E-Mail<br/>
+					<a href="#">nexgenthinking@ufl.edu</a>
+				</p>
+				</div>
+				<div class="col-sm-4 col-xs-12 address">
+					<p id="address"><b><i class="fa fa-fw fa-map-marker fa-md"></i>Location</b><br/>
+						<a href="#">The Agency<br/>University of Florida<br/>1000 Weimer Hall<br/>Gainesville, FL 32611<br/>
+						</a>
+					</p>
+				</div> -->
+				<div class="col-sm-12 col-xs-12 social">
+						<a href="mailto:theagency@jou.ufl.edu" class="envelope"><i class="fa fa-fw fa-envelope fa-md colored" id="envelope_icon"></i></a>
+						<a href="https://www.google.com/maps/place/College+of+Journalism+and+Communications/@29.6478266,-82.3474912,17z/data=!3m1!4b1!4m2!3m1!1s0x88e894ffc16dea23:0x9560e9b1d4abf1d6" class="map"><i class="fa fa-fw fa-map-marker fa-md" id="map_icon"></i></a>
+						<a href="https://www.facebook.com/nexgenthinking/" class="facebook">
+  							<i class="fa fa-facebook fb_logo" id="facebook_icon"></i>
+						</a>
+							<a href="https://www.linkedin.com/company-beta/9346044/" class="linkedin">
+  								<i class="fa fa-linkedin" id="linkedin_icon"></i>
+							</a>
+							<!-- <a href="#" class="google"><i class="fa fa-google-plus" id="google_icon"></i></a> -->
+				</div>
+			</div>
+	</div>
+		
+</section>
+
+<!-- === Contact Section === -->
+
+<!-- === Footer Section === -->
+<footer id = "footer-section">
+	<div class="container-fluid" id = "foot">
+		<div class="row">
+			<div class="col-sm-6 col-xs-6" id = "logos">
+				<img alt="Brand" src="img/Nexgen_Logos-06.png" class= "footer-image">
+			</div>
+			<div class="col-sm-6 col-xs-6" id="logos">
+				<img alt="Agency" src="img/Agency_Logo+UF_lightgray_colors.png" class= "footer-image">
+			</div>
+			<p id="copyright">© 2017 The Agency. All rights reserved.</p>
+			<p id="made-with">Made with <i class="fa fa-heart fa-1" id="love"></i> by nexGEN.</p>
+		</div>
+		</div>
+</footer>
+<!-- End Footer Section -->
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.js"></script>
-	<script src="js/jqueryTest.js"></script>
-
+	<script src="js/navbar.js"></script>
 
 
 </body>
-
 
 </html>
