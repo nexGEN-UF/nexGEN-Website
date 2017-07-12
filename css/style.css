@@ -110,7 +110,7 @@ video {
 	color: white;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 0;
-  font-size: small;
+  font-size: 0.7rem;
 	opacity: 1!important;
 	background-color: transparent!important;
 	-moz-transition: all .2s ease-in;
@@ -593,8 +593,8 @@ video {
 #contact-section {
 	background-color: whitesmoke;
 	text-decoration: none!important;
-	padding-top: 50px;
-	padding-bottom: 80px;
+	padding-top: 10px;
+	padding-bottom: 20px;
 	left: 0;
   right: 0;
   z-index: 1;
@@ -607,9 +607,8 @@ video {
  #contact-head {
 	color: darkgrey;
 	text-align: center;
-	font-size: 40px;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
 } 
 
  /* #contact-head:after {
@@ -683,8 +682,8 @@ video {
 	text-decoration: none;
 	text-align: center;
 	vertical-align: top;
-	padding-top: 30px;
-	padding-bottom: 80px;
+	padding-top: 20px;
+	padding-bottom: 40px;
 	/* background-image: url(../img/smartphone.ico);
   background-repeat: no-repeat;
   background-size: 20% 100%;
@@ -700,13 +699,13 @@ video {
 
 .social a i{
 	text-decoration: none;
-	padding-top: 15px;
+	padding-top: 10px;
 	background-color: lightgray;
 	color: darkgrey;
 	border-radius: 50%;
-	font-size: 40px;
-	width: 70px;
-	height: 70px;
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
 	opacity: .9;
 	-moz-transition: all .2s ease-in;
 	-o-transition: all .2s ease-in;
@@ -1091,8 +1090,8 @@ video {
 }
 
 #foot p{
-	display: inline;
-	color: #373a3c!important;
+	display: inline-flex;
+	color: #373a3c;
 }
 
 #logos.center {
@@ -1110,8 +1109,7 @@ video {
 }
 
 #copyright {
-	float: left;
-	margin-left: 20px;
+	margin-right: 20px;
 }
 
 #made-with {
@@ -1119,8 +1117,9 @@ video {
 }
 
 #love {
+	padding-top: 5px;
 	color: darkred;
 	font-size: 12px;
-	margin-left: 2px;
-	margin-right: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
